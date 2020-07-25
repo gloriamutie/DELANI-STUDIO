@@ -32,54 +32,60 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $("#work1").mouseover(function(){
+  $("#work1").mouseenter(function(){
     $("#overlay").show();
-  }).mouseout(function(){
-    $("#overlay").hide();
-  });
-});
-$(document).ready(function(){
-  $("#work2").mouseover(function(){
-    $("#overlay2").show();
-  }).mouseout(function(){
-    $("#overlay2").hide();
-  });
-});
-$(document).ready(function(){
-  $("#work3").mouseover(function(){
-    $("#overlay3").show();
-  }).mouseout(function(){
-    $("#overlay3").hide();
-  });
-});
-$(document).ready(function(){
-  $("#work4").mouseover(function(){
-    $("#overlay4").show();
-  }).mouseout(function(){
-    $("#overlay4").hide();
+  }).mouseleave(function(){
+    $("#overlay").hide("slow");
   });
 });
 
 $(document).ready(function(){
-  $("#work5").mouseover(function(){
+  $("#work2").mouseenter(function(){
+    $("#overlay2").show();
+  }).mouseleave(function(){
+    $("#overlay2").hide("slow");
+  });
+});
+
+$(document).ready(function(){
+  $("#work3").mouseenter(function(){
+    $("#overlay3").show();
+  }).mouseleave(function(){
+    $("#overlay3").hide("slow");
+  });
+});
+
+$(document).ready(function(){
+  $("#work4").mouseenter(function(){
+    $("#overlay4").show();
+  }).mouseleave(function(){
+    $("#overlay4").hide("slow");
+  });
+});
+
+$(document).ready(function(){
+  $("#work5").mouseenter(function(){
     $("#overlay5").show();
-  }).mouseout(function(){
-    $("#overlay5").hide();
+  }).mouseleave(function(){
+    $("#overlay5").hide("slow");
   });
-  $("#work6").mouseover(function(){
+
+  $("#work6").mouseenter(function(){
     $("#overlay6").show();
-  }).mouseout(function(){
-    $("#overlay6").hide();
+  }).mouseleave(function(){
+    $("#overlay6").hide("slow");
   });
-  $("#work7").mouseover(function(){
+
+  $("#work7").mouseenter(function(){
     $("#overlay7").show();
-  }).mouseout(function(){
-    $("#overlay7").hide();
+  }).mouseleave(function(){
+    $("#overlay7").hide("slow");
   });
-  $("#work8").mouseover(function(){
+
+  $("#work8").mouseenter(function(){
     $("#overlay8").show();
-  }).mouseout(function(){
-    $("#overlay8").hide();
+  }).mouseleave(function(){
+    $("#overlay8").hide("slow");
   });
 });
 
