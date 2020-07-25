@@ -4,7 +4,7 @@ body{
   font-family: sans-serif;
 }
 .landing{
-  background-image: url('/images/backgrounds/h_img.jpg');
+  background-image: url("../images/backgrounds/h_img.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -60,7 +60,7 @@ body{
 }
 .services{
   text-align: center;
-  background-image: url("/images/backgrounds/s_image.jpg");
+  background-image: url("../images/backgrounds/s_image.jpg");
   color: white;
   background-position: center;
   background-size: cover;
@@ -103,7 +103,7 @@ body{
   font-family: 'Gabriela', serif;
 }
 .contact{
-  background-image: url('/images/backgrounds/c_image.jpg');
+  background-image: url('../images/backgrounds/c_image.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
