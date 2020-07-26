@@ -33,9 +33,9 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#work1").mouseenter(function(){
-    $("#overlay").show();
+    $("#overlay1").show();
   }).mouseleave(function(){
-    $("#overlay").hide("slow");
+    $("#overlay1").hide("slow");
   });
 });
 
@@ -90,12 +90,12 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $("form#form34A").submit(function(event){
-    // event.preventDefault();
-    var name = $("input#MERGE1").val();
-    var email = $("input#MERGE0").val();
-    var message = $("textarea#comment").val();
-    if ($("input#MERGE1").val() && $("input#MERGE0").val()){
+  $("form#feedback-form").submit(function(event){
+    event.preventDefault();
+    let name = $("input#name").val();
+    let email = $("input#email").val();
+    let message = $("textarea#message").val();
+    if ($("input#name").val() && $("input#email").val()){
       alert (name + ", we have received your message. Thank you for reaching out to us.");
     }
     else {
