@@ -91,7 +91,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("form#feedback-form").submit(function(event){
-    event.preventDefault();
+    //event.preventDefault();
     let name = $("input#name").val();
     let email = $("input#email").val();
     let message = $("textarea#message").val();
